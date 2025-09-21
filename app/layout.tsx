@@ -39,8 +39,10 @@ export default function RootLayout({
 			<body className="antialiased font-mono">
 				<ThemeProvider>
 					<ClientDropdownWrapper />
-					<main className="min-h-screen flex items-start justify-center pt-20 relative">
-						<div className="w-full max-w-4xl px-16 py-12">{children}</div>
+					<main className="min-h-screen flex items-start justify-center pt-16 md:pt-20 relative">
+						<div className="w-full max-w-4xl px-4 md:px-16 py-8 md:py-12">
+							{children}
+						</div>
 					</main>
 				</ThemeProvider>
 			</body>

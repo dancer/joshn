@@ -36,27 +36,29 @@ export default async function Home() {
 			<Header />
 
 			<div className="space-y-12">
-				<div className="grid grid-cols-12 gap-16">
-					<div className="col-span-3 text-muted-foreground text-sm">About</div>
-					<div className="col-span-9">
+				<div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-16">
+					<div className="col-span-1 md:col-span-3 text-muted-foreground text-sm font-medium mb-2 md:mb-0">
+						About
+					</div>
+					<div className="col-span-1 md:col-span-9">
 						<p className="text-muted-foreground">{RESUME.bio.about}</p>
 					</div>
 				</div>
 
-				<div className="grid grid-cols-12 gap-16">
-					<div className="col-span-3 text-muted-foreground text-sm">
+				<div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-16">
+					<div className="col-span-1 md:col-span-3 text-muted-foreground text-sm font-medium mb-2 md:mb-0">
 						Recent GitHub Activity
 					</div>
-					<div className="col-span-9">
+					<div className="col-span-1 md:col-span-9">
 						<Contributions data={contributions} />
 					</div>
 				</div>
 
-				<div className="grid grid-cols-12 gap-16">
-					<div className="col-span-3 text-muted-foreground text-sm">
+				<div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-16">
+					<div className="col-span-1 md:col-span-3 text-muted-foreground text-sm font-medium mb-2 md:mb-0">
 						Experience
 					</div>
-					<div className="col-span-9">
+					<div className="col-span-1 md:col-span-9">
 						<div className="space-y-8">
 							{RESUME.experience.map((experience) => (
 								<div key={experience.company}>
@@ -88,11 +90,11 @@ export default async function Home() {
 					</div>
 				</div>
 
-				<div className="grid grid-cols-12 gap-16">
-					<div className="col-span-3 text-muted-foreground text-sm">
+				<div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-16">
+					<div className="col-span-1 md:col-span-3 text-muted-foreground text-sm font-medium mb-2 md:mb-0">
 						Education
 					</div>
-					<div className="col-span-9">
+					<div className="col-span-1 md:col-span-9">
 						<div className="flex justify-between">
 							<div>
 								<div className="mb-2">
@@ -109,20 +111,22 @@ export default async function Home() {
 					</div>
 				</div>
 
-				<div className="grid grid-cols-12 gap-16">
-					<div className="col-span-3 text-muted-foreground text-sm">Skills</div>
-					<div className="col-span-9">
+				<div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-16">
+					<div className="col-span-1 md:col-span-3 text-muted-foreground text-sm font-medium mb-2 md:mb-0">
+						Skills
+					</div>
+					<div className="col-span-1 md:col-span-9">
 						<div className="text-muted-foreground leading-relaxed">
 							Go; Rust; TypeScript; Java; Python
 						</div>
 					</div>
 				</div>
 
-				<div className="grid grid-cols-12 gap-16">
-					<div className="col-span-3 text-muted-foreground text-sm">
+				<div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-16">
+					<div className="col-span-1 md:col-span-3 text-muted-foreground text-sm font-medium mb-2 md:mb-0">
 						Interests
 					</div>
-					<div className="col-span-9">
+					<div className="col-span-1 md:col-span-9">
 						<div className="text-muted-foreground leading-relaxed">
 							Open source; Gaming; Pokemon; Inazuma Eleven
 						</div>

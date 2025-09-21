@@ -6,9 +6,11 @@ export default function Uses() {
 			<Header />
 
 			<div className="space-y-12">
-				<div className="grid grid-cols-12 gap-16">
-					<div className="col-span-3 text-muted-foreground text-sm">Laptop</div>
-					<div className="col-span-9">
+				<div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-16">
+					<div className="col-span-1 md:col-span-3 text-muted-foreground text-sm font-medium mb-2 md:mb-0">
+						Laptop
+					</div>
+					<div className="col-span-1 md:col-span-9">
 						<div className="text-foreground font-medium mb-2">
 							MacBook Pro 14"
 						</div>
@@ -18,11 +20,11 @@ export default function Uses() {
 					</div>
 				</div>
 
-				<div className="grid grid-cols-12 gap-16">
-					<div className="col-span-3 text-muted-foreground text-sm">
+				<div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-16">
+					<div className="col-span-1 md:col-span-3 text-muted-foreground text-sm font-medium mb-2 md:mb-0">
 						Desktop
 					</div>
-					<div className="col-span-9">
+					<div className="col-span-1 md:col-span-9">
 						<div className="space-y-6">
 							<div>
 								<div className="text-foreground font-medium mb-2">
@@ -45,11 +47,11 @@ export default function Uses() {
 					</div>
 				</div>
 
-				<div className="grid grid-cols-12 gap-16">
-					<div className="col-span-3 text-muted-foreground text-sm">
+				<div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-16">
+					<div className="col-span-1 md:col-span-3 text-muted-foreground text-sm font-medium mb-2 md:mb-0">
 						Peripherals
 					</div>
-					<div className="col-span-9">
+					<div className="col-span-1 md:col-span-9">
 						<div className="space-y-4">
 							<div>
 								<div className="text-foreground font-medium mb-2">

@@ -38,8 +38,8 @@ export default function HowIJoinedVercel() {
 			<Header />
 
 			<div className="space-y-12">
-				<div className="grid grid-cols-12 gap-16">
-					<div className="col-span-3 text-muted-foreground text-sm">
+				<div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-16">
+					<div className="col-span-1 md:col-span-3 text-muted-foreground text-sm font-medium mb-2 md:mb-0">
 						<Link
 							href="/blog"
 							className="hover:text-foreground transition-colors"
@@ -47,7 +47,7 @@ export default function HowIJoinedVercel() {
 							← back to blog
 						</Link>
 					</div>
-					<div className="col-span-9">
+					<div className="col-span-1 md:col-span-9">
 						<div className="mb-8">
 							<h1 className="text-foreground font-medium text-lg mb-2">
 								how i accidentally joined vercel
