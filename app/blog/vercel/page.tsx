@@ -10,8 +10,6 @@ export const metadata: Metadata = {
 		title: "how i accidentally joined vercel",
 		description:
 			"from a random hello at v0 summit to building the future of ai development tools.",
-		url: "https://jos.hn/blog/vercel",
-		siteName: "Josh",
 		images: [
 			{
 				url: "/api/og?title=how%20i%20accidentally%20joined%20vercel&description=from%20a%20random%20hello%20at%20v0%20summit%20to%20building%20the%20future%20of%20ai%20development%20tools.",
