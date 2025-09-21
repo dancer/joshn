@@ -4,7 +4,7 @@ import ClientDropdownWrapper from "@/components/client-dropdown-wrapper";
 import { ThemeProvider } from "@/contexts/theme-context";
 
 export const metadata: Metadata = {
-	title: "Josh",
+	title: "josh",
 	description: "cs student at mdx, software engineer.",
 	metadataBase: new URL("https://jos.hn"),
 	openGraph: {
