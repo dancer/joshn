@@ -8,7 +8,6 @@ export const metadata: Metadata = {
 	description: "cs student at mdx, software engineer.",
 	metadataBase: new URL("https://jos.hn"),
 	openGraph: {
-		title: "Josh",
 		description: "cs student at mdx, software engineer.",
 		url: "https://jos.hn",
 		siteName: "Josh",
@@ -25,7 +24,6 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "Josh",
 		description: "cs student at mdx, software engineer.",
 		images: [
 			"/api/og?description=cs%20student%20at%20mdx%2C%20software%20engineer.",
