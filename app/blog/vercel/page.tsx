@@ -53,7 +53,7 @@ export default function HowIJoinedVercel() {
 								how i accidentally joined vercel
 							</h1>
 							<div className="text-muted-foreground text-xs">
-								Jan 1, 2025 — 12 min read
+								Sep 22, 2025 — 12 min read
 							</div>
 						</div>
 
