@@ -3,7 +3,8 @@ const RESUME = {
 	avatar_path: "/me.jpg",
 	bio: {
 		intro: "cs student at mdx, software engineer.",
-		about: "Passionate about creating meaningful software and exploring new technologies. I love building products that solve real problems and make people's lives better.",
+		about:
+			"Passionate about creating meaningful software and exploring new technologies. I love building products that solve real problems and make people's lives better.",
 	},
 	experience: [
 		{
@@ -56,17 +57,15 @@ const RESUME = {
 		{
 			slug: "portfolio",
 			name: "Personal Portfolio",
-			description: "A clean, minimal portfolio website built with Next.js and Tailwind CSS.",
-			longDescription: "This portfolio showcases my work and experience with a focus on clean design and performance.",
+			description:
+				"A clean, minimal portfolio website built with Next.js and Tailwind CSS.",
+			longDescription:
+				"This portfolio showcases my work and experience with a focus on clean design and performance.",
 			imagePath: "/projects/portfolio.png",
 			liveUrl: "https://jos.hn",
 			githubUrl: "https://github.com/josh/portfolio",
 			stack: ["Next.js", "TypeScript", "TailwindCSS"],
-			keyFeatures: [
-				"Responsive design",
-				"Clean typography",
-				"Fast loading",
-			],
+			keyFeatures: ["Responsive design", "Clean typography", "Fast loading"],
 			inProgress: false,
 			year: 2024,
 		},
