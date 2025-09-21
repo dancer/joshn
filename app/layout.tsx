@@ -9,14 +9,12 @@ export const metadata: Metadata = {
 	metadataBase: new URL("https://jos.hn"),
 	openGraph: {
 		description: "cs student at mdx, software engineer.",
-		url: "https://jos.hn",
-		siteName: "Josh",
 		images: [
 			{
 				url: "/api/og?description=cs%20student%20at%20mdx%2C%20software%20engineer.",
 				width: 1200,
 				height: 630,
-				alt: "josh - cs student at mdx, software engineer.",
+				alt: "cs student at mdx, software engineer.",
 			},
 		],
 		locale: "en_US",
