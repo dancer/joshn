@@ -53,23 +53,6 @@ const RESUME = {
 		end_year: "2026",
 		location: "London, UK",
 	},
-	projects: [
-		{
-			slug: "portfolio",
-			name: "Personal Portfolio",
-			description:
-				"A clean, minimal portfolio website built with Next.js and Tailwind CSS.",
-			longDescription:
-				"This portfolio showcases my work and experience with a focus on clean design and performance.",
-			imagePath: "/projects/portfolio.png",
-			liveUrl: "https://jos.hn",
-			githubUrl: "https://github.com/josh/portfolio",
-			stack: ["Next.js", "TypeScript", "TailwindCSS"],
-			keyFeatures: ["Responsive design", "Clean typography", "Fast loading"],
-			inProgress: false,
-			year: 2024,
-		},
-	],
 };
 
 export default RESUME;
