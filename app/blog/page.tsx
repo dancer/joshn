@@ -4,7 +4,7 @@ import Header from "@/components/header";
 const posts = [
 	{
 		title: "how i accidentally joined vercel",
-		date: "2025-01-01",
+		date: "2025-09-22",
 		slug: "vercel",
 		description:
 			"from a random hello at v0 summit to building the future of ai development tools.",
