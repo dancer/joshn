@@ -1,4 +1,4 @@
-personal portfolio
+## personal portfolio
 
 ### features
 
@@ -12,7 +12,6 @@ personal portfolio
 - next.js 15
 - tailwind css v4
 - typescript
-- vercel
 
 ### dev
 
