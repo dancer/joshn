@@ -4,11 +4,9 @@ import RESUME from "@/data/resume";
 export default function Header() {
 	return (
 		<div className="flex flex-col md:flex-row md:justify-between md:items-end border-b border-border/30 pb-6 mb-12">
-			<div className="flex justify-between items-start md:items-end mb-4 md:mb-0">
-				<div>
-					<h1 className="text-sm font-bold mb-3">
-						{RESUME.name.toLowerCase()}
-					</h1>
+			<div>
+				<h1 className="text-sm font-bold mb-3">{RESUME.name.toLowerCase()}</h1>
+				<div className="flex justify-between items-center md:block">
 					<nav className="flex flex-wrap gap-2 md:gap-4 text-muted-foreground text-sm">
 						<Link href="/" className="hover:text-foreground transition-colors">
 							home
@@ -41,9 +39,9 @@ export default function Header() {
 							github
 						</Link>
 					</nav>
-				</div>
-				<div className="text-muted-foreground text-sm md:hidden">
-					London / SF
+					<div className="text-muted-foreground text-sm md:hidden">
+						London / SF
+					</div>
 				</div>
 			</div>
 			<div className="text-muted-foreground text-sm hidden md:block">
